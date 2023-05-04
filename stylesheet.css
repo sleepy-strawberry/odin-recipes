@@ -3,4 +3,11 @@ img {
 }
 body {
   background-color: lightsalmon;
+  padding: 0 50px;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
