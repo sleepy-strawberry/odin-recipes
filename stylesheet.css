@@ -1,9 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('assets/kitchen-bgr.jpg') no-repeat center top;
+  background-size: cover;
+  height: 100vh;
+  padding: 0 50px;
+  font-family: 'Hedvig Letters Serif', serif;
+}
+
 img {
   width: 30vw;
 }
-body {
-  background-color: lightsalmon;
-  padding: 0 50px;
+
+h1 {
+  background-color: rgba(255, 255, 255, 0.194);
+  color: white;
+  padding: 1em 2em;
+  margin: 1em;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  padding: 0.5em;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  border-bottom: solid 1px white;
+  padding-bottom: 0.5em;
 }
 .wrapper {
   display: flex;
